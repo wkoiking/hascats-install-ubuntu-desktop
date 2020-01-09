@@ -80,11 +80,13 @@ exec /home/mega/.local/bin/hascats-exe --workstation WS122
 
 `hascats.deb`を作る：
 
+はじめにバイナリを`/hascats/home/mega/.local/bin/hascats-exe`を置く。
+
 ~~~
 $ fakeroot dpkg-deb --build ./
 ~~~
 
-（fakeroot がないと言われた場合は`sudo apt-get install fakeroot`）
+※fakeroot がないと言われた場合は`sudo apt-get install fakeroot`
 
 `hascats.deb`をインストールする：
 
