@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=XSession
+Comment=This session uses the custom xsession file
+Exec=/etc/X11/Xsession
+

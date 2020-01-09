@@ -1,0 +1,6 @@
+Package: hascats
+Maintainer: Nao Fujinaga <wanagida@gmail.com>
+Architecture: amd64
+Version: 1.7.0-1
+Description: ATS Workstation written in Haskell
+
