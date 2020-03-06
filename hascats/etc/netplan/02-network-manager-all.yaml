@@ -6,4 +6,3 @@ network:
     enp1s0:
       dhcp4: no
       addresses: [172.22.102.22/16]
-
