@@ -1,1 +1,7 @@
+[InputSource0]
+xkb=us
+
+[User]
+XSession=custom
+SystemAccount=false
 
