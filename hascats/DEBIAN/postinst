@@ -1,2 +1,2 @@
 #!/bin/sh -e
-chmod +x /home/dmrc/.local/bin/hascats-exe
+chmod +x /home/mega/.local/bin/hascats-exe
