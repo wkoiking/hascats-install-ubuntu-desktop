@@ -7,4 +7,4 @@ export LC_CTYPE="en_US.UTF-8"
 
 xsetroot -cursor_name left_ptr &
 
-exec /home/mega/.local/bin/hascats-exe --workstation WS122
+exec /home/mega/.local/bin/hascats-exe
