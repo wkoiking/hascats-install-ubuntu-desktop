@@ -83,7 +83,7 @@ exec /home/mega/.local/bin/hascats-exe --workstation WS122
 はじめにバイナリを`/hascats/home/mega/.local/bin/hascats-exe`を置く。e.g.,
 
 ~~~
-cp /hascats/home/mega/.local/bin/hascats-exe /home/mega/hascats-install-ubuntu-desktop/hascats/home/mega/.local/bin/hascats-exe
+cp /home/mega/.local/bin/hascats-exe /home/mega/hascats-install-ubuntu-desktop/hascats/home/mega/.local/bin/hascats-exe
 ~~~
 
 hascatsディレクトリを`.deb`に固める。
