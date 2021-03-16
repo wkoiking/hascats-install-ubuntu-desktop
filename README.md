@@ -1,8 +1,8 @@
-# Ubuntu Desktop‚Ìİ’è
+# Ubuntu Desktopã®è¨­å®š
 
-## Network‚Ìİ’è
+## Networkã®è¨­å®š
 
-‰º‹L‚Ì“à—e‚Ì`/etc/netplan/01-network-manager-all.yaml`‚ğì¬‚·‚é
+ä¸‹è¨˜ã®å†…å®¹ã®`/etc/netplan/01-network-manager-all.yaml`ã‚’ä½œæˆã™ã‚‹
 
 ~~~
 network:
@@ -14,7 +14,7 @@ network:
       addresses: [172.21.102.22/16]
 ~~~
 
-‰º‹L‚Ì“à—e‚Ì`/etc/netplan/02-network-manager-all.yaml`‚ğì¬‚·‚é
+ä¸‹è¨˜ã®å†…å®¹ã®`/etc/netplan/02-network-manager-all.yaml`ã‚’ä½œæˆã™ã‚‹
 
 ~~~
 network:
@@ -25,7 +25,7 @@ network:
       addresses: [172.22.102.22/16]
 ~~~
 
-‰º‹L‚ÌƒRƒ}ƒ“ƒh‚ğÀs‚·‚é
+ä¸‹è¨˜ã®ã‚³ãƒãƒ³ãƒ‰ã‚’å®Ÿè¡Œã™ã‚‹
 
 ~~~
 $ sudo netplan apply
@@ -33,9 +33,9 @@ $ sudo netplan apply
 
 [Reference](https://vitux.com/how-to-configure-networking-with-netplan-on-ubuntu/)
 
-## OpenSSH Server‚Ìİ’è
+## OpenSSH Serverã®è¨­å®š
 
-ƒCƒ“ƒ^[ƒlƒbƒg‚ÉÚ‘±‚µ‚Ä‰º‹L‚ÌƒRƒ}ƒ“ƒh‚ğÀs‚·‚é
+ã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆã«æ¥ç¶šã—ã¦ä¸‹è¨˜ã®ã‚³ãƒãƒ³ãƒ‰ã‚’å®Ÿè¡Œã™ã‚‹
 
 ~~~
 $ sudo apt update
@@ -45,11 +45,11 @@ $ sudo ufw allow ssh
 
 [Reference](https://linuxize.com/post/how-to-enable-ssh-on-ubuntu-18-04/)
 
-## Window Manager‚Ìİ’è
+## Window Managerã®è¨­å®š
 
-ƒfƒXƒNƒgƒbƒvŠÂ‹«‚ğ‹N“®‚¹‚¸‚ÉA’¼Úhascats-exe‚ğ‹N“®‚·‚é‚æ‚¤‚É‚·‚éF
+ãƒ‡ã‚¹ã‚¯ãƒˆãƒƒãƒ—ç’°å¢ƒã‚’èµ·å‹•ã›ãšã«ã€ç›´æ¥hascats-exeã‚’èµ·å‹•ã™ã‚‹ã‚ˆã†ã«ã™ã‚‹ï¼š
 
-‰º‹L‚Ì“à—e‚Ì`/usr/share/xsessions/custom.desktop`‚ğì¬‚·‚é
+ä¸‹è¨˜ã®å†…å®¹ã®`/usr/share/xsessions/custom.desktop`ã‚’ä½œæˆã™ã‚‹
 
 ~~~
 [Desktop Entry]
@@ -58,44 +58,44 @@ Comment=This session uses the custom xsession file
 Exec=/etc/X11/Xsession
 ~~~
 
-‰º‹L‚Ì“à—e‚Ì`~/.xsession`‚ğì¬‚·‚é
+ä¸‹è¨˜ã®å†…å®¹ã®`~/.xsession`ã‚’ä½œæˆã™ã‚‹
 
 ~~~
 #!/usr/bin/env bash
 
 xsetroot -cursor_name left_ptr &
 
-exec /home/mega/.local/bin/hascats-exe --workstation WS122
+exec /home/mega/.local/bin/hascats-exe
 ~~~
 
-[XSession‚Ìİ’è](https://wiki.ubuntu.com/CustomXSession)
+[XSessionã®è¨­å®š](https://wiki.ubuntu.com/CustomXSession)
 
-[ƒ}ƒEƒXƒJ[ƒ\ƒ‹‚Ìİ’è](https://wiki.archlinux.jp/index.php/%E3%82%AB%E3%83%BC%E3%82%BD%E3%83%AB%E3%83%86%E3%83%BC%E3%83%9E#.E5.BD.A2.E3.81.8C_X_.E3.81.AE.E3.83.87.E3.83.95.E3.82.A9.E3.83.AB.E3.83.88.E3.82.AB.E3.83.BC.E3.82.BD.E3.83.AB.E3.81.AE.E5.A4.89.E6.9B.B4)
+[ãƒã‚¦ã‚¹ã‚«ãƒ¼ã‚½ãƒ«ã®è¨­å®š](https://wiki.archlinux.jp/index.php/%E3%82%AB%E3%83%BC%E3%82%BD%E3%83%AB%E3%83%86%E3%83%BC%E3%83%9E#.E5.BD.A2.E3.81.8C_X_.E3.81.AE.E3.83.87.E3.83.95.E3.82.A9.E3.83.AB.E3.83.88.E3.82.AB.E3.83.BC.E3.82.BD.E3.83.AB.E3.81.AE.E5.A4.89.E6.9B.B4)
 
-## NTP‚Ìİ’è
+## NTPã®è¨­å®š
 
 [https://www.yokoweb.net/2018/05/14/ubuntu-18_04-timesyncd/]
 
-## ƒCƒ“ƒXƒg[ƒ‰[i.debƒtƒ@ƒCƒ‹j‚Ìì¬‚ÆƒCƒ“ƒXƒg[ƒ‹
+## ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ©ãƒ¼ï¼ˆ.debãƒ•ã‚¡ã‚¤ãƒ«ï¼‰ã®ä½œæˆã¨ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«
 
-`hascats.deb`‚ğì‚éF
+`hascats.deb`ã‚’ä½œã‚‹ï¼š
 
-‚Í‚¶‚ß‚ÉƒoƒCƒiƒŠ‚ğ`/hascats/home/mega/.local/bin/hascats-exe`‚ğ’u‚­Be.g.,
+ã¯ã˜ã‚ã«ãƒã‚¤ãƒŠãƒªã‚’`/hascats/home/mega/.local/bin/hascats-exe`ã‚’ç½®ãã€‚e.g.,
 
 ~~~
 cp /home/mega/.local/bin/hascats-exe /home/mega/hascats-install-ubuntu-desktop/hascats/home/mega/.local/bin/hascats-exe
 ~~~
 
-hascatsƒfƒBƒŒƒNƒgƒŠ‚ğ`.deb`‚ÉŒÅ‚ß‚éB
+hascatsãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’`.deb`ã«å›ºã‚ã‚‹ã€‚
 
 ~~~
 $ cd /home/mega/hascats-install-ubuntu-desktop
 $ fakeroot dpkg-deb --build hascats
 ~~~
 
-¦fakeroot ‚ª‚È‚¢‚ÆŒ¾‚í‚ê‚½ê‡‚Í`sudo apt-get install fakeroot`
+â€»fakeroot ãŒãªã„ã¨è¨€ã‚ã‚ŒãŸå ´åˆã¯`sudo apt-get install fakeroot`
 
-`hascats.deb`‚ğƒCƒ“ƒXƒg[ƒ‹‚·‚éF
+`hascats.deb`ã‚’ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã™ã‚‹ï¼š
 
 ~~~
 $ sudo dpkg -i hascats.deb
