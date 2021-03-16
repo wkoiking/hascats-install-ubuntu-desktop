@@ -9,4 +9,4 @@ xsetroot -cursor_name left_ptr &
 
 sleep 10
 
-exec /home/mega/.local/bin/hascats-exe
+exec /home/dmrc/.local/bin/hascats-exe
