@@ -5,8 +5,6 @@ export LC_ALL="en_US.UTF-8"
 export LANGUAGE="en_US.UTF-8"
 export LC_CTYPE="en_US.UTF-8"
 
-xsetroot -cursor_name left_ptr &
-
 sleep 10
 
-exec /home/dmrc/.local/bin/hascats-exe
+exec /home/dmrc/.local/bin/hascats-exe-ws

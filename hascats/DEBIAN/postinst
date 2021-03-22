@@ -1,3 +1,10 @@
 #!/bin/sh -e
-chmod +x /home/dmrc/.local/bin/hascats-exe
+
+chown dmrc /home/dmrc/.local/bin
+chgrp dmrc /home/dmrc/.local/bin
+chown dmrc /home/dmrc/.local/bin/hascats-exe-ws
+chgrp dmrc /home/dmrc/.local/bin/hascats-exe-ws
+
+chmod +x /home/dmrc/.local/bin/hascats-exe-ws
+
 reboot
