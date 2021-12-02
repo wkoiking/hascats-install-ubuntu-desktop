@@ -83,7 +83,7 @@ exec /home/mega/.local/bin/hascats-exe
 はじめにバイナリを`/hascats/home/mega/.local/bin/hascats-exe`を置く。e.g.,
 
 ~~~
-cp /home/mega/.local/bin/hascats-exe /home/mega/hascats-install-ubuntu-desktop/hascats/home/mega/.local/bin/hascats-exe
+cp /home/mega/.local/bin/hascats-exe-ws-ns /home/mega/hascats-install-ubuntu-desktop/hascats/home/mega/.local/bin/hascats-exe-ws-ns
 ~~~
 
 hascatsディレクトリを`.deb`に固める。
