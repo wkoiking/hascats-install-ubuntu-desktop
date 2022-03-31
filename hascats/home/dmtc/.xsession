@@ -5,6 +5,6 @@ export LC_ALL="en_US.UTF-8"
 export LANGUAGE="en_US.UTF-8"
 export LC_CTYPE="en_US.UTF-8"
 
-sleep 10
+sleep 1
 
-exec /home/mega/.local/bin/hascats-exe-ws-ns
+exec /home/dmtc/.local/bin/hascats-exe-ws-dhaka

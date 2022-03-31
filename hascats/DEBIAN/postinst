@@ -1,10 +1,10 @@
 #!/bin/sh -e
 
-chown mega /home/mega/.local/bin
-chgrp mega /home/mega/.local/bin
-chown mega /home/mega/.local/bin/hascats-exe-ws-ns
-chgrp mega /home/mega/.local/bin/hascats-exe-ws-ns
+chown dmtc /home/dmtc/.local/bin
+chgrp dmtc /home/dmtc/.local/bin
+chown dmtc /home/dmtc/.local/bin/hascats-exe-ws-dhaka
+chgrp dmtc /home/dmtc/.local/bin/hascats-exe-ws-dhaka
 
-chmod +x /home/mega/.local/bin/hascats-exe-ws-ns
+chmod +x /home/dmtc/.local/bin/hascats-exe-ws-dhaka
 
 reboot
