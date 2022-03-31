@@ -83,7 +83,7 @@ exec /home/dmtc/.local/bin/hascats-exe-ws-dhaka
 はじめにバイナリを`/hascats/home/dmtc/.local/bin/hascats-exe-ws-dhaka`を置く。e.g.,
 
 ~~~
-cp /home/dmtc/.local/bin/hascats-exe-ws-ns /home/dmtc/hascats-install-ubuntu-desktop/hascats/home/dmtc/.local/bin/hascats-exe-ws-ns
+cp /home/dmtc/.local/bin/hascats-exe-ws-dhaka /home/dmtc/hascats-install-ubuntu-desktop/hascats/home/dmtc/.local/bin/hascats-exe-ws-dhaka
 ~~~
 
 hascatsディレクトリを`.deb`に固める。
