@@ -7,4 +7,4 @@ export LC_CTYPE="en_US.UTF-8"
 
 sleep 10
 
-exec /home/mega/.local/bin/hascats-exe-ws-ns
+exec /home/mega/.local/bin/hascats-exe-ws-ew

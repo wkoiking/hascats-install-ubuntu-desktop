@@ -2,9 +2,9 @@
 
 chown mega /home/mega/.local/bin
 chgrp mega /home/mega/.local/bin
-chown mega /home/mega/.local/bin/hascats-exe-ws-ns
-chgrp mega /home/mega/.local/bin/hascats-exe-ws-ns
+chown mega /home/mega/.local/bin/hascats-exe-ws-ew
+chgrp mega /home/mega/.local/bin/hascats-exe-ws-ew
 
-chmod +x /home/mega/.local/bin/hascats-exe-ws-ns
+chmod +x /home/mega/.local/bin/hascats-exe-ws-ew
 
 reboot
