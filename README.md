@@ -65,7 +65,7 @@ Exec=/etc/X11/Xsession
 
 xsetroot -cursor_name left_ptr &
 
-exec /home/mega/.local/bin/hascats-exe
+exec /home/dmrc/.local/bin/hascats-exe
 ~~~
 
 [XSessionの設定](https://wiki.ubuntu.com/CustomXSession)
@@ -80,16 +80,16 @@ exec /home/mega/.local/bin/hascats-exe
 
 `hascats.deb`を作る：
 
-はじめにバイナリを`/hascats/home/mega/.local/bin/hascats-exe`を置く。e.g.,
+はじめにバイナリを`/hascats/home/dmrc/.local/bin/hascats-exe`を置く。e.g.,
 
 ~~~
-cp /home/mega/.local/bin/hascats-exe /home/mega/hascats-install-ubuntu-desktop/hascats/home/mega/.local/bin/hascats-exe
+cp /home/dmrc/.local/bin/hascats-exe /home/dmrc/hascats-install-ubuntu-desktop/hascats/home/dmrc/.local/bin/hascats-exe
 ~~~
 
 hascatsディレクトリを`.deb`に固める。
 
 ~~~
-$ cd /home/mega/hascats-install-ubuntu-desktop
+$ cd /home/dmrc/hascats-install-ubuntu-desktop
 $ fakeroot dpkg-deb --build hascats
 ~~~
 
