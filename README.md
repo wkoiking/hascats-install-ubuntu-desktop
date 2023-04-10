@@ -102,3 +102,11 @@ $ sudo dpkg -i hascats.deb
 ~~~
 
 [Reference](https://blog.cybozu.io/entry/2016/05/16/111500)
+
+## デスクトップ環境なしでUSBを使えるようにする
+
+~~~
+$ sudo apt-get install usbmount
+~~~
+
+後はhascats.debに入っているファイルを展開すれば良い。
